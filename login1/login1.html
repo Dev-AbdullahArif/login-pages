@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-sec">
+    <details>
+        <summary>Fill out your information</summary>
+        <form action="">
+            <input type="text" class="box" placeholder="Enter First Name" required>
+            <input type="text" class="box" placeholder="Enter Last Name" >
+            <input type="text" class="box" placeholder="Enter Valid Email" required>
+            <input type="password" class="box" placeholder="Enter password" required>
+           <div class="gender">
+            <label for="">Select Gender</label>
+          <label for="">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+          <label for="">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            </div>
+            <label class="role">Select Role</label>
+            
+            <select >
+                <option value="" >---select role---</option>
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
+         <button>Sign Up</button>
+        </form>
+    </details>
+    </div>
+</body>
+</html>
