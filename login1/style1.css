@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  max-width: 100%;
 }
 summary {
   border: 2px solid rgba(255, 255, 255, 0.2);
