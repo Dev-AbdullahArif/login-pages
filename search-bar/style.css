@@ -1,0 +1,88 @@
+body{
+    background-color: #0a0a0a;  
+   align-items: center;
+    justify-content: center;  
+    min-height: 100vh;
+display: flex;
+box-sizing: border-box;
+font-family: "Poppins ",sans-serif;
+
+}
+summary{
+    color: white;
+    font-size: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius:  50px;
+    padding: 15px;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+summary:hover{
+    color: #ba232d;
+    transform: translateY(-10px);
+    border-color: red;
+}
+
+
+form{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    
+    border-radius:50px ;
+    margin-top: 10px;
+
+
+}
+input{
+    justify-content: space-around;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    padding: 12px;
+    width: 80%;
+    color: white;
+}
+button{
+    display: inline-block;
+    padding: 12px;
+    border-radius: 50px;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    color: #ba232d;;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.youtube-logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.youtube-logo span{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.youtube-logo:hover{
+    transform: scale(1.1);
+}
